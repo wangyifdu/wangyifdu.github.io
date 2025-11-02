@@ -1,5 +1,5 @@
 - id: guan2025dynamic
-  title: Dynamic Scheduling for Security Protection Re-2 Sources in Cloud–Edge Collaboration Scenarios Using Deep Reinforcement Learning
+  title: "Dynamic Scheduling for Security Protection Re-2 Sources in Cloud–Edge Collaboration Scenarios Using Deep Reinforcement Learning"
   authors:
     - Lin Guan
     - Hongmei Shi
@@ -27,7 +27,7 @@
       doi={10.3390/math13193055}
     }
 - id: xie2025rustc
-  title: A Comprehensive Approach to Rustc Optimization Vulnerability Detection in Industrial Control Systems
+  title: "A Comprehensive Approach to Rustc Optimization Vulnerability Detection in Industrial Control Systems"
   authors:
     - Kaifeng Xie
     - Jinjing Wan
@@ -55,7 +55,7 @@
       doi={10.3390/math13152459}
     }
 - id: zhang2025crossdomain
-  title: Assessing Cross-Domain Threats in Cloud–Edge-Integrated Industrial Control Systems
+  title: "Assessing Cross-Domain Threats in Cloud–Edge-Integrated Industrial Control Systems"
   authors:
     - Lei Zhang
     - Yi Wang
@@ -83,7 +83,7 @@
       doi={10.3390/electronics14163242}
     }
 - id: chen2025plc
-  title: Fine-Tune LLMs for PLC Code Security: An Information-Theoretic Analysis
+  title: "Fine-Tune LLMs for PLC Code Security: An Information-Theoretic Analysis"
   authors:
     - Ping Chen
     - Xiaojing Liu
@@ -110,7 +110,7 @@
       doi={10.3390/math13193211}
     }
 - id: wang2009traffic
-  title: Traffic Controller — A Practical Approach to Block Network Covert Timing Channels
+  title: "Traffic Controller — A Practical Approach to Block Network Covert Timing Channels"
   authors:
     - Yi Wang
     - Ping Chen
@@ -119,7 +119,7 @@
     - Li Xie
   venue: International Conference on Availability, Reliability and Security (ARES)
   year: 2009
-  pages: 349-354
+  pages: "349-354"
   publisher: IEEE
   doi: 10.1109/ARES.2009.141
   url: https://doi.org/10.1109/ARES.2009.141
@@ -135,7 +135,7 @@
       doi={10.1109/ARES.2009.141}
     }
 - id: chen2009brick
-  title: BRICK — A Binary Tool for Run-Time Detecting and Locating Integer-Based Vulnerability
+  title: "BRICK — A Binary Tool for Run-Time Detecting and Locating Integer-Based Vulnerability"
   authors:
     - Ping Chen
     - Yi Wang
@@ -144,7 +144,7 @@
     - Li Xie
   venue: International Conference on Availability, Reliability and Security (ARES)
   year: 2009
-  pages: 208-215
+  pages: "208-215"
   publisher: IEEE
   doi: 10.1109/ARES.2009.77
   url: https://doi.org/10.1109/ARES.2009.77
@@ -160,7 +160,7 @@
       doi={10.1109/ARES.2009.77}
     }
 - id: chen2009intfinder
-  title: IntFinder — Automatically Detecting Integer Bugs in x86 Binary Program
+  title: "IntFinder — Automatically Detecting Integer Bugs in x86 Binary Program"
   authors:
     - Ping Chen
     - Hao Han
@@ -171,7 +171,7 @@
     - Li Xie
   venue: Information and Communications Security (ICICS)
   year: 2009
-  pages: 336-345
+  pages: "336-345"
   publisher: Springer
   doi: 10.1007/978-3-642-11145-7_26
   url: https://doi.org/10.1007/978-3-642-11145-7_26
@@ -187,7 +187,7 @@
       doi={10.1007/978-3-642-11145-7_26}
     }
 - id: wang2009imop
-  title: iMOP — An In-Memory Object Protector
+  title: "iMOP — An In-Memory Object Protector"
   authors:
     - Yi Wang
     - Zhi Xin
@@ -207,7 +207,7 @@
       publisher={IEEE}
     }
 - id: wang2007bufferguard
-  title: Using BufferGuard to Defend Against Buffer Overflow Attacks
+  title: "Using BufferGuard to Defend Against Buffer Overflow Attacks"
   authors:
     - Yi Wang
     - Bing Mao
