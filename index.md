@@ -1,73 +1,65 @@
 ---
 layout: default
 title: Yi Wang · Research Assistant
-description: Yi Wang is a research assistant at Fudan University's Institute of Big Data specializing in software security, system simulation, and AI-assisted security.
+description: Research assistant at Fudan University's Institute of Big Data focused on software security and AI-assisted defenses.
 ---
 
 <section id="about" class="section">
-  <div class="hero">
+  <div class="hero hero-condensed">
     <img src="{{ '/WangYi_Pic.jpg' | relative_url }}" alt="Portrait of Yi Wang" />
     <div>
       <h1>Yi Wang</h1>
-      <p class="subtitle">Research Assistant · Institute of Big Data, Fudan University</p>
-      <p>
-        I focus on security-oriented program analysis, system simulation, and the deployment of
-        AI-assisted defenses. My work bridges foundational methods and production-scale systems to
-        deliver resilient solutions for academic collaborators and industry partners.
+      <p class="subtitle">Institute of Big Data, Fudan University</p>
+      <p class="bio">
+        Research assistant working on software security analysis, system emulation, and LLM-driven defenses for
+        industrial and cloud-scale environments. B.S. &amp; Ph.D. in Computer Science, Nanjing University.
       </p>
-      <div class="contact-links">
+      <div class="contact-links condensed">
+        <a class="icon-link" href="mailto:yiwang_@fudan.edu.cn" aria-label="Email Yi Wang">yiwang_@fudan.edu.cn</a>
+        <a class="icon-link" href="https://orcid.org/0009-0005-2866-7274" target="_blank" rel="noopener" aria-label="ORCID profile">
+          <svg viewBox="0 0 256 256" role="img" aria-hidden="true" focusable="false">
+            <circle cx="128" cy="128" r="128" fill="#A6CE39" />
+            <path fill="#fff" d="M85.5 69.6v116.8h-20V69.6h20zm34.8 0c30.2 0 54.7 24.6 54.7 55s-24.5 55-54.7 55h-29.1v-110h29.1zm-.2 19.8h-8.9v70.3h8.9c19.2 0 33.9-15.7 33.9-35.2 0-19.6-14.7-35.1-33.9-35.1z" />
+          </svg>
+          ORCID
+        </a>
         <span>📍 Handan Road #220, Shanghai</span>
-        <a href="mailto:yiwang_@fudan.edu.cn">yiwang_@fudan.edu.cn</a>
-        <a href="{{ '/WangYi_Resume.md' | relative_url }}">Résumé (Markdown)</a>
       </div>
     </div>
   </div>
 </section>
 
-<section id="research" class="section">
-  <h2 class="section-title">Research Interests</h2>
-  <p>
-    I explore practical techniques that make complex systems measurable and defensible. My recent efforts concentrate on
-    building automated pipelines that combine symbolic reasoning, dynamic emulation, and LLM-based analyses for faster security insight.
-  </p>
+<section id="focus" class="section">
+  <h2 class="section-title">Focus</h2>
   <ul class="pill-list">
-    <li>Program analysis &amp; vulnerability discovery</li>
-    <li>Advanced fuzzing and testing orchestration</li>
+    <li>Vulnerability discovery &amp; program analysis</li>
     <li>Firmware and cyber-physical system emulation</li>
-    <li>AI-assisted security for cloud and blockchain ecosystems</li>
+    <li>LLM-assisted security engineering</li>
   </ul>
 </section>
 
 <section id="projects" class="section">
-  <h2 class="section-title">Active Industry Projects</h2>
+  <h2 class="section-title">Current Work</h2>
   <div class="card-grid">
     <article class="card">
-      <h3>Source Code Security Scan for PLC Systems</h3>
+      <h3>PLC Code Security Review</h3>
       <span class="meta">State Grid · 2023–2025</span>
-      <p>
-        End-to-end security review of industrial PLC codebases, combining static program slicing and intelligent triage to surface exploitable weaknesses early.
-      </p>
+      <p>Scalable inspection pipeline for industrial PLC software with automated triage.</p>
     </article>
     <article class="card">
-      <h3>Module Risk Evaluation Platform</h3>
-      <span class="meta">SNPAS (State Nuclear Power Automation System Engineering Company) · 2023–2025</span>
-      <p>
-        Risk scoring engine that quantifies software supply-chain exposure for critical automation modules powering nuclear infrastructure.
-      </p>
+      <h3>Module Risk Evaluation</h3>
+      <span class="meta">SNPAS · 2023–2025</span>
+      <p>Risk scoring for critical nuclear automation components and supply-chain dependencies.</p>
     </article>
     <article class="card">
-      <h3>LLM-Assisted API Vulnerability Detection</h3>
+      <h3>LLM-Assisted API Hardening</h3>
       <span class="meta">Dewu · 2024–2025</span>
-      <p>
-        Hybrid analysis framework where LLM reasoning augments taint tracking and symbolic execution to validate API misconfigurations.
-      </p>
+      <p>Combine taint tracking with LLM reasoning to flag exploitable API behaviors.</p>
     </article>
     <article class="card">
-      <h3>AI Agent Driven Security Enhancement Framework</h3>
+      <h3>Autonomous Security Agents</h3>
       <span class="meta">Huawei · 2024–present</span>
-      <p>
-        Autonomous guardrails that orchestrate agentic workflows for continuous hardening of large-scale cloud services and infrastructure.
-      </p>
+      <p>Agent workflows that continuously harden large-scale cloud infrastructure.</p>
     </article>
   </div>
 </section>
@@ -77,28 +69,19 @@ description: Yi Wang is a research assistant at Fudan University's Institute of 
   {% assign publications = site.data.publications | sort: 'year' | reverse %}
   <div class="card-grid">
     {% for pub in publications %}
-    <article class="card publication-card">
+    <article class="card publication-card compact">
       <p class="publication-title">{{ pub.title }}</p>
       <p class="publication-meta">
-        {{ pub.authors | join: ', ' }} · {{ pub.venue }} · {{ pub.year }}
-        {% if pub.volume %} · Vol. {{ pub.volume }}{% endif %}
-        {% if pub.issue %}({{ pub.issue }}){% endif %}
-        {% if pub.pages %} · pp. {{ pub.pages }}{% endif %}
+        {{ pub.authors | join: ', ' }} · {{ pub.venue }} {{ pub.year }}{% if pub.volume %}, {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
       </p>
       <div class="publication-links">
         {% if pub.doi %}
-        <a class="link-tag" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI: {{ pub.doi }}</a>
+        <a class="link-tag" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
         {% endif %}
         {% if pub.url %}
         <a class="link-tag" href="{{ pub.url }}" target="_blank" rel="noopener">Full text</a>
         {% endif %}
       </div>
-      {% if pub.publisher %}
-      <p class="publication-publisher">{{ pub.publisher }}</p>
-      {% endif %}
-      {% if pub.abstract %}
-      <p>{{ pub.abstract }}</p>
-      {% endif %}
       {% if pub.bibtex %}
       <details>
         <summary>BibTeX</summary>
@@ -108,17 +91,4 @@ description: Yi Wang is a research assistant at Fudan University's Institute of 
     </article>
     {% endfor %}
   </div>
-  <p style="margin-top: 1.5rem;">
-    Download all entries as a single file:
-    <a class="link-tag" href="{{ '/assets/publications.bib' | relative_url }}">publications.bib</a>
-  </p>
-</section>
-
-<section id="background" class="section">
-  <h2 class="section-title">Background</h2>
-  <p>
-    I received both my B.S. and Ph.D. in Computer Science and Technology from Nanjing University.
-    Across academia and industry collaborations I have led efforts in binary hardening, secure system prototyping,
-    and the deployment of LLM-driven security services that operate at production scale.
-  </p>
 </section>
