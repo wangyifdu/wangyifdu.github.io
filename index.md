@@ -42,23 +42,23 @@ description: Research assistant at Fudan University's Institute of Big Data focu
   <h2 class="section-title">Current Work</h2>
   <div class="card-grid">
     <article class="card">
-      <h3>PLC Code Security Review</h3>
-      <span class="meta">State Grid · 2023–2025</span>
+      <h3>State Grid · PLC Code Security</h3>
+      <span class="meta">2023–2025</span>
       <p>Scalable inspection pipeline for industrial PLC software with automated triage.</p>
     </article>
     <article class="card">
-      <h3>Module Risk Evaluation</h3>
-      <span class="meta">SNPAS · 2023–2025</span>
+      <h3>SNPAS · Module Risk Evaluation</h3>
+      <span class="meta">2023–2025</span>
       <p>Risk scoring for critical nuclear automation components and supply-chain dependencies.</p>
     </article>
     <article class="card">
-      <h3>LLM-Assisted API Hardening</h3>
-      <span class="meta">Dewu · 2024–2025</span>
+      <h3>Dewu · LLM-Assisted API Hardening</h3>
+      <span class="meta">2024–2025</span>
       <p>Combine taint tracking with LLM reasoning to flag exploitable API behaviors.</p>
     </article>
     <article class="card">
-      <h3>Autonomous Security Agents</h3>
-      <span class="meta">Huawei · 2024–present</span>
+      <h3>Huawei · Autonomous Security Agents</h3>
+      <span class="meta">2024–present</span>
       <p>Agent workflows that continuously harden large-scale cloud infrastructure.</p>
     </article>
   </div>
