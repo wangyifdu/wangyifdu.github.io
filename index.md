@@ -1,6 +1,8 @@
+---
 layout: default
 title: Yi Wang · Research Assistant
 description: Yi Wang is a research assistant at Fudan University's Institute of Big Data specializing in software security, system simulation, and AI-assisted security.
+---
 
 <section id="about" class="section">
   <div class="hero">
