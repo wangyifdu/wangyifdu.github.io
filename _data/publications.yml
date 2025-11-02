@@ -7,20 +7,24 @@
     - Yi Wang
   venue: Mathematics
   year: 2025
+  volume: 13
+  issue: 19
+  pages: 3055
+  publisher: MDPI
   doi: 10.3390/math13193055
   url: https://doi.org/10.3390/math13193055
-  abstract: Reinforcement learning-driven scheduler that prioritizes heterogeneous protection resources for cloud–edge deployments.
+  abstract: Reinforcement learning scheduler that allocates heterogeneous cloud–edge protection resources to keep latency-bounded defenses effective.
   bibtex: |
     @article{guan2025dynamic,
-      title = {Dynamic Scheduling for Security Protection Re-2 Sources in Cloud--Edge Collaboration Scenarios Using Deep Reinforcement Learning},
-      author = {Guan, Lin and Shi, Hongmei and Chen, Haoran and Wang, Yi},
-      journal = {Mathematics},
-      volume = {13},
-      number = {19},
-      pages = {3055},
-      year = {2025},
-      publisher = {MDPI},
-      doi = {10.3390/math13193055}
+      title={Dynamic Scheduling for Security Protection Re-2 Sources in Cloud--Edge Collaboration Scenarios Using Deep Reinforcement Learning},
+      author={Guan, Lin and Shi, Hongmei and Chen, Haoran and Wang, Yi},
+      journal={Mathematics},
+      volume={13},
+      number={19},
+      pages={3055},
+      year={2025},
+      publisher={MDPI},
+      doi={10.3390/math13193055}
     }
 - id: xie2025rustc
   title: A Comprehensive Approach to Rustc Optimization Vulnerability Detection in Industrial Control Systems
@@ -31,123 +35,79 @@
     - Yi Wang
   venue: Mathematics
   year: 2025
+  volume: 13
+  issue: 15
+  pages: 2459
+  publisher: MDPI
   doi: 10.3390/math13152459
   url: https://doi.org/10.3390/math13152459
-  abstract: Static-to-dynamic pipeline that uncovers Rust compiler optimization risks in industrial control workloads.
+  abstract: Static and dynamic analysis pipeline that surfaces unsafe Rust compiler optimizations in industrial control deployments.
   bibtex: |
     @article{xie2025rustc,
-      title = {A Comprehensive Approach to Rustc Optimization Vulnerability Detection in Industrial Control Systems},
-      author = {Xie, Kaifeng and Wan, Jinjing and Chen, Lifeng and Wang, Yi},
-      journal = {Mathematics},
-      volume = {13},
-      number = {15},
-      pages = {2459},
-      year = {2025},
-      publisher = {MDPI},
-      doi = {10.3390/math13152459}
+      title={A Comprehensive Approach to Rustc Optimization Vulnerability Detection in Industrial Control Systems},
+      author={Xie, Kaifeng and Wan, Jinjing and Chen, Lifeng and Wang, Yi},
+      journal={Mathematics},
+      volume={13},
+      number={15},
+      pages={2459},
+      year={2025},
+      publisher={MDPI},
+      doi={10.3390/math13152459}
     }
-- id: wang2024crossdomain
+- id: zhang2025crossdomain
   title: Assessing Cross-Domain Threats in Cloud–Edge-Integrated Industrial Control Systems
   authors:
+    - Lei Zhang
     - Yi Wang
+    - Cheng Chang
+    - Xingqiu Shen
   venue: Electronics
-  year: 2024
-  url: https://www.mdpi.com/2079-9292/14/16/3242
-  abstract: Security blueprint for converged cloud–edge industrial stacks with emphasis on cross-domain risk propagation.
+  year: 2025
+  volume: 14
+  issue: 16
+  pages: 3242
+  publisher: MDPI
+  doi: 10.3390/electronics14163242
+  url: https://doi.org/10.3390/electronics14163242
+  abstract: Framework for modeling and quantifying cross-domain risks across converged cloud and edge industrial control deployments.
   bibtex: |
-    @article{wang2024crossdomain,
-      title = {Assessing Cross-Domain Threats in Cloud--Edge-Integrated Industrial Control Systems},
-      author = {Wang, Yi and collaborators},
-      journal = {Electronics},
-      year = {2024},
-      note = {Please update author list and volume/issue details when available},
-      url = {https://www.mdpi.com/2079-9292/14/16/3242}
+    @article{zhang2025crossdomain,
+      title={Assessing Cross-Domain Threats in Cloud--Edge-Integrated Industrial Control Systems},
+      author={Zhang, Lei and Wang, Yi and Chang, Cheng and Shen, Xingqiu},
+      journal={Electronics},
+      volume={14},
+      number={16},
+      pages={3242},
+      year={2025},
+      publisher={MDPI},
+      doi={10.3390/electronics14163242}
     }
-- id: wang2024plc
+- id: chen2025plc
   title: Fine-Tune LLMs for PLC Code Security: An Information-Theoretic Analysis
   authors:
+    - Ping Chen
+    - Xiaojing Liu
     - Yi Wang
   venue: Mathematics
-  year: 2024
-  url: https://www.mdpi.com/2227-7390/13/19/3211
-  abstract: Information-theoretic assessment of LLM fine-tuning strategies tailored for programmable logic controller code security.
+  year: 2025
+  volume: 13
+  issue: 19
+  pages: 3211
+  publisher: MDPI
+  doi: 10.3390/math13193211
+  url: https://doi.org/10.3390/math13193211
+  abstract: Information-theoretic study showing how to adapt large language models for PLC program auditing with bounded hallucination risks.
   bibtex: |
-    @article{wang2024plc,
-      title = {Fine-Tune LLMs for PLC Code Security: An Information-Theoretic Analysis},
-      author = {Wang, Yi and collaborators},
-      journal = {Mathematics},
-      year = {2024},
-      note = {Please update author list, volume, and issue details when available},
-      url = {https://www.mdpi.com/2227-7390/13/19/3211}
-    }
-- id: wang2009imop
-  title: iMOP — An In-Memory Object Protector
-  authors:
-    - Yi Wang
-    - Zhi Xin
-    - Ping Chen
-    - et al.
-  venue: CATARS Workshop @ DSN
-  year: 2009
-  abstract: Runtime object protection mechanism designed to harden memory management against tampering.
-  bibtex: |
-    @inproceedings{wang2009imop,
-      title = {iMOP: An In-Memory Object Protector},
-      author = {Wang, Yi and Xin, Zhi and Chen, Ping and others},
-      booktitle = {Proceedings of the Second DSN Workshop on CATARS},
-      year = {2009}
-    }
-- id: wang2007bufferguard
-  title: Using BufferGuard to Defend Against Buffer Overflow Attacks
-  authors:
-    - Yi Wang
-    - Bing Mao
-    - Li Xie
-    - Ping Chen
-  venue: IEEE/IFIP DSN
-  year: 2007
-  abstract: Evaluates BufferGuard as a deployable mitigation against memory corruption in production systems.
-  bibtex: |
-    @inproceedings{wang2007bufferguard,
-      title = {Using BufferGuard to Defend Against Buffer Overflow Attacks},
-      author = {Wang, Yi and Mao, Bing and Xie, Li and Chen, Ping},
-      booktitle = {Proceedings of the IEEE/IFIP International Conference on Dependable Systems and Networks},
-      year = {2007}
-    }
-- id: chen2009brick
-  title: BRICK — A Binary Tool for Run-time Detecting and Locating Integer-Based Vulnerability
-  authors:
-    - Ping Chen
-    - Yi Wang
-  venue: ARES
-  year: 2009
-  abstract: Binary instrumentation system that pinpoints integer overflows at runtime for mission-critical binaries.
-  bibtex: |
-    @inproceedings{chen2009brick,
-      title = {BRICK: A Binary Tool for Run-time Detecting and Locating Integer-based Vulnerability},
-      author = {Chen, Ping and Wang, Yi and collaborators},
-      booktitle = {Proceedings of the International Conference on Availability, Reliability and Security (ARES)},
-      year = {2009}
-    }
-- id: chen2009intfinder
-  title: IntFinder — Automatically Detecting Integer Bugs in x86 Binary Programs
-  authors:
-    - Ping Chen
-    - Hao Han
-    - Yi Wang
-    - Xiaobin Shen
-    - Xinchun Yin
-    - Bing Mao
-    - Li Xie
-  venue: ICICS
-  year: 2009
-  abstract: Binary analysis workflow that pinpoints integer bugs in legacy x86 applications via dynamic monitoring.
-  bibtex: |
-    @inproceedings{chen2009intfinder,
-      title = {IntFinder: Automatically Detecting Integer Bugs in x86 Binary Program},
-      author = {Chen, Ping and Han, Hao and Wang, Yi and Shen, Xiaobin and Yin, Xinchun and Mao, Bing and Xie, Li},
-      booktitle = {International Conference on Information and Communications Security},
-      year = {2009}
+    @article{chen2025plc,
+      title={Fine-Tune LLMs for PLC Code Security: An Information-Theoretic Analysis},
+      author={Chen, Ping and Liu, Xiaojing and Wang, Yi},
+      journal={Mathematics},
+      volume={13},
+      number={19},
+      pages={3211},
+      year={2025},
+      publisher={MDPI},
+      doi={10.3390/math13193211}
     }
 - id: wang2009traffic
   title: Traffic Controller — A Practical Approach to Block Network Covert Timing Channels
@@ -157,16 +117,111 @@
     - Yi Ge
     - Bing Mao
     - Li Xie
-  venue: ARES
+  venue: International Conference on Availability, Reliability and Security (ARES)
   year: 2009
+  pages: 349-354
+  publisher: IEEE
   doi: 10.1109/ARES.2009.141
-  url: https://doi.ieeecomputersociety.org/10.1109/ARES.2009.141
-  abstract: Timing-based detection and mitigation strategy that suppresses covert channels in critical networks.
+  url: https://doi.org/10.1109/ARES.2009.141
+  abstract: Timing-shaping defenses that suppress covert channel throughput on mission-critical networks.
   bibtex: |
     @inproceedings{wang2009traffic,
-      title = {Traffic Controller: A Practical Approach to Block Network Covert Timing Channel},
-      author = {Wang, Yi and Chen, Ping and Ge, Yi and Mao, Bing and Xie, Li},
-      booktitle = {International Conference on Availability, Reliability and Security},
-      year = {2009},
-      doi = {10.1109/ARES.2009.141}
+      title={Traffic Controller: A Practical Approach to Block Network Covert Timing Channel},
+      author={Wang, Yi and Chen, Ping and Ge, Yi and Mao, Bing and Xie, Li},
+      booktitle={2009 International Conference on Availability, Reliability and Security},
+      pages={349--354},
+      year={2009},
+      publisher={IEEE},
+      doi={10.1109/ARES.2009.141}
+    }
+- id: chen2009brick
+  title: BRICK — A Binary Tool for Run-Time Detecting and Locating Integer-Based Vulnerability
+  authors:
+    - Ping Chen
+    - Yi Wang
+    - Zhi Xin
+    - Bing Mao
+    - Li Xie
+  venue: International Conference on Availability, Reliability and Security (ARES)
+  year: 2009
+  pages: 208-215
+  publisher: IEEE
+  doi: 10.1109/ARES.2009.77
+  url: https://doi.org/10.1109/ARES.2009.77
+  abstract: Dynamic instrumentation system that locates integer-based vulnerabilities during binary execution.
+  bibtex: |
+    @inproceedings{chen2009brick,
+      title={BRICK: A Binary Tool for Run-Time Detecting and Locating Integer-Based Vulnerability},
+      author={Chen, Ping and Wang, Yi and Xin, Zhi and Mao, Bing and Xie, Li},
+      booktitle={2009 International Conference on Availability, Reliability and Security},
+      pages={208--215},
+      year={2009},
+      publisher={IEEE},
+      doi={10.1109/ARES.2009.77}
+    }
+- id: chen2009intfinder
+  title: IntFinder — Automatically Detecting Integer Bugs in x86 Binary Program
+  authors:
+    - Ping Chen
+    - Hao Han
+    - Yi Wang
+    - Xiaobin Shen
+    - Xinchun Yin
+    - Bing Mao
+    - Li Xie
+  venue: Information and Communications Security (ICICS)
+  year: 2009
+  pages: 336-345
+  publisher: Springer
+  doi: 10.1007/978-3-642-11145-7_26
+  url: https://doi.org/10.1007/978-3-642-11145-7_26
+  abstract: Hybrid symbolic execution pipeline that diagnoses integer vulnerabilities directly on stripped x86 binaries.
+  bibtex: |
+    @inproceedings{chen2009intfinder,
+      title={IntFinder: Automatically Detecting Integer Bugs in x86 Binary Program},
+      author={Chen, Ping and Han, Hao and Wang, Yi and Shen, Xiaobin and Yin, Xinchun and Mao, Bing and Xie, Li},
+      booktitle={Information and Communications Security},
+      pages={336--345},
+      year={2009},
+      publisher={Springer},
+      doi={10.1007/978-3-642-11145-7_26}
+    }
+- id: wang2009imop
+  title: iMOP — An In-Memory Object Protector
+  authors:
+    - Yi Wang
+    - Zhi Xin
+    - Ping Chen
+    - Bing Mao
+    - Li Xie
+  venue: Dependable Systems and Networks Workshop on CATARS
+  year: 2009
+  publisher: IEEE
+  abstract: Memory protection layer that hardens in-memory objects against tampering within systems software.
+  bibtex: |
+    @inproceedings{wang2009imop,
+      title={iMOP: An In-Memory Object Protector},
+      author={Wang, Yi and Xin, Zhi and Chen, Ping and Mao, Bing and Xie, Li},
+      booktitle={Proceedings of the Second DSN Workshop on CATARS},
+      year={2009},
+      publisher={IEEE}
+    }
+- id: wang2007bufferguard
+  title: Using BufferGuard to Defend Against Buffer Overflow Attacks
+  authors:
+    - Yi Wang
+    - Bing Mao
+    - Li Xie
+    - Ping Chen
+  venue: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+  year: 2007
+  publisher: IEEE
+  abstract: Introduces BufferGuard as a practical mitigation for memory corruption attacks in production systems.
+  bibtex: |
+    @inproceedings{wang2007bufferguard,
+      title={Using BufferGuard to Defend Against Buffer Overflow Attacks},
+      author={Wang, Yi and Mao, Bing and Xie, Li and Chen, Ping},
+      booktitle={Proceedings of the IEEE/IFIP International Conference on Dependable Systems and Networks},
+      year={2007},
+      publisher={IEEE}
     }

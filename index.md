@@ -79,6 +79,9 @@ description: Yi Wang is a research assistant at Fudan University's Institute of 
       <p class="publication-title">{{ pub.title }}</p>
       <p class="publication-meta">
         {{ pub.authors | join: ', ' }} · {{ pub.venue }} · {{ pub.year }}
+        {% if pub.volume %} · Vol. {{ pub.volume }}{% endif %}
+        {% if pub.issue %}({{ pub.issue }}){% endif %}
+        {% if pub.pages %} · pp. {{ pub.pages }}{% endif %}
       </p>
       <div class="publication-links">
         {% if pub.doi %}
@@ -88,6 +91,9 @@ description: Yi Wang is a research assistant at Fudan University's Institute of 
         <a class="link-tag" href="{{ pub.url }}" target="_blank" rel="noopener">Full text</a>
         {% endif %}
       </div>
+      {% if pub.publisher %}
+      <p class="publication-publisher">{{ pub.publisher }}</p>
+      {% endif %}
       {% if pub.abstract %}
       <p>{{ pub.abstract }}</p>
       {% endif %}

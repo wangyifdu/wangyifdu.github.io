@@ -244,6 +244,13 @@ main {
   margin-bottom: 0.7rem;
 }
 
+.publication-publisher {
+  font-size: 0.88rem;
+  color: var(--primary-dark);
+  margin: -0.35rem 0 0.75rem;
+  font-weight: 500;
+}
+
 .publication-links {
   display: flex;
   gap: 1rem;
