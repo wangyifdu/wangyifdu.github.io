@@ -1,114 +1,116 @@
----
 layout: default
 title: Yi Wang · Research Assistant
 description: Yi Wang is a research assistant at Fudan University's Institute of Big Data specializing in software security, system simulation, and AI-assisted security.
----
 
-<div class="hero">
-  <img src="{{ '/WangYi_Pic.jpg' | relative_url }}" alt="Portrait of Yi Wang" />
-  <div>
-    <h1>Yi Wang</h1>
-    <p class="subtitle">Research Assistant · Institute of Big Data, Fudan University</p>
-    <p>
-      I am a research assistant at Fudan University focused on security-oriented program analysis,
-      system simulation, and AI-assisted security. My work bridges large language models and
-      practical cybersecurity challenges, delivering production deployments for academic and
-      industry partners.
-    </p>
-    <p>
-      <strong>Contact</strong><br />
-      Handan Road #220, Shanghai · <a href="mailto:yiwang_@fudan.edu.cn">yiwang_@fudan.edu.cn</a>
-    </p>
+<section id="about" class="section">
+  <div class="hero">
+    <img src="{{ '/WangYi_Pic.jpg' | relative_url }}" alt="Portrait of Yi Wang" />
+    <div>
+      <h1>Yi Wang</h1>
+      <p class="subtitle">Research Assistant · Institute of Big Data, Fudan University</p>
+      <p>
+        I focus on security-oriented program analysis, system simulation, and the deployment of
+        AI-assisted defenses. My work bridges foundational methods and production-scale systems to
+        deliver resilient solutions for academic collaborators and industry partners.
+      </p>
+      <div class="contact-links">
+        <span>📍 Handan Road #220, Shanghai</span>
+        <a href="mailto:yiwang_@fudan.edu.cn">yiwang_@fudan.edu.cn</a>
+        <a href="{{ '/WangYi_Resume.md' | relative_url }}">Résumé (Markdown)</a>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
-<section>
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Software security: program analysis, smart vulnerability detection, advanced fuzz testing</li>
-    <li>System simulation and emulation for firmware and embedded platforms</li>
-    <li>AI-assisted security, including blockchain, cloud, and MCP/agent safety</li>
+<section id="research" class="section">
+  <h2 class="section-title">Research Interests</h2>
+  <p>
+    I explore practical techniques that make complex systems measurable and defensible. My recent efforts concentrate on
+    building automated pipelines that combine symbolic reasoning, dynamic emulation, and LLM-based analyses for faster security insight.
+  </p>
+  <ul class="pill-list">
+    <li>Program analysis &amp; vulnerability discovery</li>
+    <li>Advanced fuzzing and testing orchestration</li>
+    <li>Firmware and cyber-physical system emulation</li>
+    <li>AI-assisted security for cloud and blockchain ecosystems</li>
   </ul>
 </section>
 
-<section>
-  <h2>Current Projects</h2>
-  <div class="project-list">
-    <div class="project-item">
-      <strong>Source Code Security Scan for PLC Systems</strong>
+<section id="projects" class="section">
+  <h2 class="section-title">Active Industry Projects</h2>
+  <div class="card-grid">
+    <article class="card">
+      <h3>Source Code Security Scan for PLC Systems</h3>
       <span class="meta">State Grid · 2023–2025</span>
-      <p>Developing scalable analysis pipelines that surface vulnerabilities in industrial PLC codebases.</p>
-    </div>
-    <div class="project-item">
-      <strong>Module Risk Evaluation Platform</strong>
+      <p>
+        End-to-end security review of industrial PLC codebases, combining static program slicing and intelligent triage to surface exploitable weaknesses early.
+      </p>
+    </article>
+    <article class="card">
+      <h3>Module Risk Evaluation Platform</h3>
       <span class="meta">SNPAS (State Nuclear Power Automation System Engineering Company) · 2023–2025</span>
-      <p>Building a risk scoring engine to prioritize remediation for mission-critical automation components.</p>
-    </div>
-    <div class="project-item">
-      <strong>LLM-Assisted API Vulnerability Detection</strong>
+      <p>
+        Risk scoring engine that quantifies software supply-chain exposure for critical automation modules powering nuclear infrastructure.
+      </p>
+    </article>
+    <article class="card">
+      <h3>LLM-Assisted API Vulnerability Detection</h3>
       <span class="meta">Dewu · 2024–2025</span>
-      <p>Pairing automated program analysis with LLM reasoning to uncover and validate API weaknesses.</p>
-    </div>
-    <div class="project-item">
-      <strong>AI Agent Driven Security Enhancement Framework</strong>
+      <p>
+        Hybrid analysis framework where LLM reasoning augments taint tracking and symbolic execution to validate API misconfigurations.
+      </p>
+    </article>
+    <article class="card">
+      <h3>AI Agent Driven Security Enhancement Framework</h3>
       <span class="meta">Huawei · 2024–present</span>
-      <p>Engineering autonomous agent workflows that continuously harden large-scale cloud services.</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Selected Publications</h2>
-  <div class="publication-list">
-    <article class="publication-item">
-      <strong>Dynamic Scheduling for Security Protection Re-2 Sources in Cloud–Edge Collaboration Scenarios Using Deep Reinforcement Learning</strong>
-      <span class="meta">Mathematics, 2025</span>
-      <a href="https://doi.org/10.3390/math13193055" target="_blank" rel="noopener">https://doi.org/10.3390/math13193055</a>
-    </article>
-    <article class="publication-item">
-      <strong>A Comprehensive Approach to Rustc Optimization Vulnerability Detection in Industrial Control Systems</strong>
-      <span class="meta">Mathematics, 2025</span>
-      <a href="https://doi.org/10.3390/math13152459" target="_blank" rel="noopener">https://doi.org/10.3390/math13152459</a>
-    </article>
-    <article class="publication-item">
-      <strong>Assessing Cross-Domain Threats in Cloud–Edge-Integrated Industrial Control Systems</strong>
-      <span class="meta">Electronics, 2024</span>
-      <a href="https://www.mdpi.com/2079-9292/14/16/3242" target="_blank" rel="noopener">Full text</a>
-    </article>
-    <article class="publication-item">
-      <strong>Fine-Tune LLMs for PLC Code Security: An Information-Theoretic Analysis</strong>
-      <span class="meta">Mathematics, 2024</span>
-      <a href="https://www.mdpi.com/2227-7390/13/19/3211" target="_blank" rel="noopener">Full text</a>
-    </article>
-    <article class="publication-item">
-      <strong>iMOP: An In-Memory Object Protector</strong>
-      <span class="meta">CATARS Workshop @ DSN, 2009</span>
-    </article>
-    <article class="publication-item">
-      <strong>Using BufferGuard to Defend Against Buffer Overflow Attacks</strong>
-      <span class="meta">IEEE/IFIP DSN, 2007</span>
-    </article>
-    <article class="publication-item">
-      <strong>BRICK: A Binary Tool for Run-time Detecting and Locating Integer-based Vulnerabilities</strong>
-      <span class="meta">ARES, 2009</span>
-    </article>
-    <article class="publication-item">
-      <strong>IntFinder: Automatically Detecting Integer Bugs in x86 Binary Programs</strong>
-      <span class="meta">ICICS, 2009</span>
-    </article>
-    <article class="publication-item">
-      <strong>Traffic Controller: A Practical Approach to Block Network Covert Timing Channels</strong>
-      <span class="meta">ARES, 2009</span>
-      <a href="https://doi.ieeecomputersociety.org/10.1109/ARES.2009.141" target="_blank" rel="noopener">DOI</a>
+      <p>
+        Autonomous guardrails that orchestrate agentic workflows for continuous hardening of large-scale cloud services and infrastructure.
+      </p>
     </article>
   </div>
 </section>
 
-<section>
-  <h2>Background</h2>
+<section id="publications" class="section">
+  <h2 class="section-title">Selected Publications</h2>
+  {% assign publications = site.data.publications | sort: 'year' | reverse %}
+  <div class="card-grid">
+    {% for pub in publications %}
+    <article class="card publication-card">
+      <p class="publication-title">{{ pub.title }}</p>
+      <p class="publication-meta">
+        {{ pub.authors | join: ', ' }} · {{ pub.venue }} · {{ pub.year }}
+      </p>
+      <div class="publication-links">
+        {% if pub.doi %}
+        <a class="link-tag" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI: {{ pub.doi }}</a>
+        {% endif %}
+        {% if pub.url %}
+        <a class="link-tag" href="{{ pub.url }}" target="_blank" rel="noopener">Full text</a>
+        {% endif %}
+      </div>
+      {% if pub.abstract %}
+      <p>{{ pub.abstract }}</p>
+      {% endif %}
+      {% if pub.bibtex %}
+      <details>
+        <summary>BibTeX</summary>
+        <pre>{{ pub.bibtex | escape_once }}</pre>
+      </details>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  <p style="margin-top: 1.5rem;">
+    Download all entries as a single file:
+    <a class="link-tag" href="{{ '/assets/publications.bib' | relative_url }}">publications.bib</a>
+  </p>
+</section>
+
+<section id="background" class="section">
+  <h2 class="section-title">Background</h2>
   <p>
-    B.S. and Ph.D. in Computer Science and Technology from Nanjing University. My career spans
-    software security analysis, operating system hardening, and the deployment of LLM-driven
-    security solutions with global industry collaborators.
+    I received both my B.S. and Ph.D. in Computer Science and Technology from Nanjing University.
+    Across academia and industry collaborations I have led efforts in binary hardening, secure system prototyping,
+    and the deployment of LLM-driven security services that operate at production scale.
   </p>
 </section>

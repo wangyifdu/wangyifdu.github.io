@@ -7,3 +7,9 @@ markdown: kramdown
 permalink: pretty
 sass:
   style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author:
+  name: Yi Wang
+  email: yiwang_@fudan.edu.cn
