@@ -22,6 +22,10 @@ body {
   line-height: 1.7;
 }
 
+html {
+  scroll-padding-top: 120px;
+}
+
 .container {
   width: min(1080px, 92vw);
   margin: 0 auto;
