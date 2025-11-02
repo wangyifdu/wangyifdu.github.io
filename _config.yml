@@ -1,0 +1,9 @@
+title: Yi Wang
+name: Yi Wang
+description: Research Assistant at Fudan University's Institute of Big Data
+baseurl: ""
+url: "https://wangyifdu.github.io"
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
